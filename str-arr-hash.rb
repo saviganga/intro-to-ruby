@@ -26,5 +26,3 @@ countries = {'NG' => 'Nigeria', 'UK' => 'United Kingdom', 'USA' => 'United State
 
 puts "\nCountries and their respective codes: "
 countries.each { |key, value| puts "\n#{key}: #{value}\n" }
-
-#puts "\nCountries and their respective codes #{countries}"

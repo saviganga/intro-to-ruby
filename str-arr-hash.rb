@@ -23,4 +23,8 @@ puts "\nThis array now holds #{food.size} elements"
 
 # create a hash with country codes and their respective countries
 countries = {'NG' => 'Nigeria', 'UK' => 'United Kingdom', 'USA' => 'United States of America'}
-puts "\nCountries and their respective codes #{countries}"
+
+puts "\nCountries and their respective codes: "
+countries.each { |key, value| puts "\n#{key}: #{value}\n" }
+
+#puts "\nCountries and their respective codes #{countries}"

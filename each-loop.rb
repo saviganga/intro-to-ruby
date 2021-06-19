@@ -29,11 +29,11 @@ print "\n"
 #####################################################
 ## to use EACH with hash , two parameters (one for key and one for value)
 
-# create a hash
-food_count = {'bacon': 200, 'egg': 400}
+# create an album hash and get the length
+albums = {'Wizkid': 'Made in Lagos', 'Mr Eazi': 'Life is Eazi', 'Davido': 'A Better Time', 'Burna Boy': 'Twice as Tall', 'Olamide': 'UY Scuti'}
 
 # loop through and print the keys and values
-food_count.each { |key, value| puts "#{key}: #{value}" }
+albums.each { |key, value| puts "#{key}: #{value}" }
 
 print "\n"
 #####################################################

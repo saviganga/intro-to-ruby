@@ -6,7 +6,7 @@
 shirts = 10
 
 # set your loop (unknown number of iterations, hence while)
-while TRUE
+while true
 
     # get input from uuser
     print "\nEnter number of shirts: "
